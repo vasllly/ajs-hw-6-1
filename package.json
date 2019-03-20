@@ -1,7 +1,7 @@
 {
-  "name": "ajs-hw-6-1",
+  "name": "defender-game",
   "version": "1.0.0",
-  "description": "hw",
+  "description": "Browser based game",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/vasllly/ajs-hw-6-1.git"
   },
   "keywords": [
-    "hw"
+    "game"
   ],
   "author": "Vasllly",
   "license": "ISC",
@@ -24,12 +24,12 @@
   "homepage": "https://github.com/vasllly/ajs-hw-6-1#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.0",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
     "babel-jest": "^24.5.0",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
-    "eslint": "^5.15.3",
+    "eslint": "^5.15.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "html-loader": "^0.5.5",
@@ -38,11 +38,11 @@
     "jest": "^24.5.0",
     "mini-css-extract-plugin": "^0.5.0",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
+    "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.0"
+    "@babel/polyfill": "^7.2.5"
   },
   "husky": {
     "hooks": {
